@@ -1,0 +1,60 @@
+html {
+  overflow-y: scroll;
+}
+
+body{
+	padding-top: 50px; 
+	background-color: #23395B;
+	font-family: 'Droid Sans', sans-serif;
+	color: #F2F4F4;
+}
+
+.panel{
+	background-color: white;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-panel{
+	height: 300px;
+	overflow-y: auto;
+}
+
+.project-panel:hover, .project-panel:visited{
+	background-color: #F2FCFC;	
+	text-decoration: none;
+}
+
+h2, h3{
+	color: #B9E3C6;
+}
+
+h4{
+	color: #59C9A5;
+}
+
+h5{
+	color: #033F63;
+}
+
+.center-text{
+	text-align: center;
+}
+
+a, a:visited{
+	color: #34495E;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.screenshots p{
+	padding: 10px;
+}
+
+.screenshots img{
+	border: 2px solid black;
+	max-width: 100%;
+	max-height: 100%;
+}
